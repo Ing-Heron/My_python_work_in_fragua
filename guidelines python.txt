@@ -1,0 +1,42 @@
+Guia de estilos y practicas de codificación Python
+1.- The PEP8 guidelines for code readability include:
+	1.- four spaces for indentation.
+	2.- use blank lines to separate functions 	and clases.
+ 	3.- use spaces around operators and aflter 	commas.
+
+2.- Coding conventions for consistency and manageability include:
+	1.- add larger blocks of code inside 	functions. 
+	2.- name functions and files using 	lowercase with underscore.
+	3.- name calsses using CamelCase.
+	4.- name constants in capital letters with 	underscores separating words
+
+3.- Use Static code analysis method to evaluate your code against a predefined style and standard without executing the code.
+
+PyLint framework
+
+links:
+https://peps.python.org/pep-0008/
+https://in.mathworks.com/discovery/static-code-analysis.html
+https://en.wikipedia.org/wiki/Static_program_analysis
+https://www.perforce.com/blog/qac/how-static-code-analysis-works
+
+PRUEBAS UNITARIAS
+1.- Unit testing is a method to validate if the units of code are operating as designed.
+2.- During code development, each unit is tested. The unit is tested in a continuous integration/continuous delivery test server environment. Once the unit passes the server test, the unit is merged into the final main codebase.
+3.- You can use different test functions to build unit tests.
+4.- You can review the unit test output and determine if the test passed or failed.
+
+unittest
+
+ENVASADO
+1.- A Python module is a .py file containing Python definitions, statements functions, and classes.
+2.- A package is a collection of python modules into a dictionary with a __init__.py file.
+3.- A librery is a collection of packages or it can be a single package.
+4.- To create a package:
+	1.- Create a folder with the package 	name.
+	2.- Create an empty __init__.py file.
+	3.- Create the requiered modules.
+	4.- In the __init__.py file, add code to
+	the modules in the package.
+5.- You can verify the package via the bash terminal.
+6.- After creating the package, you can use it in other scripts if the package folder is in the same directory.
