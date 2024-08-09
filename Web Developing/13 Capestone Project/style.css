@@ -1,0 +1,31 @@
+body {
+    background-color: #003C43;
+}
+
+#introduction {
+    color: #E3FEF7;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#about-me {
+    background-color: #77B0AA;
+}
+
+#about-me p {
+    color: #E3FEF7;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal; 
+    font-size: 70px;
+}
