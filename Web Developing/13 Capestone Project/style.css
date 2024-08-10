@@ -2,23 +2,26 @@ body {
     background-color: #003C43;
 }
 
-#introduction {
-    color: #E3FEF7;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
+.section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+#introduction {
+    color: #E3FEF7;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
 #about-me {
     background-color: #77B0AA;
 }
 
-#about-me p {
+.color-text {
     color: #E3FEF7;
 }
 
