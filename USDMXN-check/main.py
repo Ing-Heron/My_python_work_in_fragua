@@ -35,3 +35,7 @@ else:
 if dollar_today <= 17:
     print("Dollar is cheap")
 
+price_usd = float(input("Input the price in USD: "))
+price_mx = price_usd * dollar_today
+print(f"USD: {price_usd} is  MXN: {price_mx}")
+
